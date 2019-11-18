@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<config>
+	<sections>
+		<popov_admitad module="popov_admitad" translate="label">
+			<label>Admitad</label>
+			<sort_order>200</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<tab>retargeting</tab>
+			<groups>
+				<settings translate="label">
+					<label>Admitad ReTag Settings</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>10</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+                        <enabled translate="label">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </enabled>
+                        <postback_key translate="label comment">
+                            <label>PostBack Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </postback_key>
+                        <campaign_code translate="label comment">
+                            <label>Campaign Code</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>25</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </campaign_code>
+                        <postback_url translate="label comment">
+                            <label>PostBack URL</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </postback_url>
+						<cms_index_index_code translate="label comment">
+							<label>Home Page Code</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>40</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</cms_index_index_code>
+						<catalog_category_view_code translate="label comment">
+							<label>Catalog Page Code</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>50</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</catalog_category_view_code>
+						<catalog_product_view_code translate="label comment">
+							<label>Product Page Code</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>60</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</catalog_product_view_code>
+						<checkout_cart_index_code translate="label comment">
+							<label>Cart Page Code</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>70</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</checkout_cart_index_code>
+						<checkout_onepage_success_code translate="label comment">
+							<label>Success Page Code</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>80</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</checkout_onepage_success_code>
+					</fields>
+				</settings>
+			</groups>
+		</popov_admitad>
+	</sections>
+</config>
